@@ -1,0 +1,60 @@
+{
+  "name": "react-complete-guide",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^12.5.0",
+    "axios": "^0.26.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.3",
+    "express-jwt": "^6.1.1",
+    "express-rate-limit": "^6.3.0",
+    "helmet": "^5.0.2",
+    "helmet-csp": "^3.4.0",
+    "ims-lti": "^3.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "jwks-rsa": "^2.0.5",
+    "moment": "^2.29.1",
+    "node-env-run": "^4.0.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^5.0.0",
+    "web-vitals": "^0.2.4",
+    "xss-clean": "^0.1.1"
+  },
+  "scripts": {
+    "start:production": "npm install && npm run build && node server.js",
+    "start:development": "npm install && npm run build && nodemon server.js",
+    "start:prod": "node server",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
